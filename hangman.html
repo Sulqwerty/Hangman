@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="intro">
+            <pre>
+=========================================
+|  |  __         ___            __       
+|__| |  | |\  | |     |\    /| |  | |\  |
+|  | |__| | \ | | __  | \  / | |__| | \ |
+|  | |  | |  \| |___| |  \/  | |  | |  \|
+=========================================
+            </pre>
+            <p>Tebak kata dalam kurang dari 7 kesalahan untuk menang.<br>
+            <small>Kata yang akan ditebak adalah kata yang berhubungan dengan komputer dan pemrograman.</small><p>
+        </div>
+        <div id="game">
+            <div id="image"></div>
+            <div id="word"></div>
+            <div id="wrong-letters"></div>
+            <input type="text" id="letter-input" maxlength="1" placeholder="Huruf" autocomplete="off">
+            <button id="submit-letter">Kirim</button>
+            <div id="message"></div>
+            <button id="restart">Main Lagi</button>
+            <div id="chances"></div>
+        </div>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>

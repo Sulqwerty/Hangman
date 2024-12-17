@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#intro pre {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+small {
+    color: red;
+}
+
+#game {
+    display: none;
+}
+
+#image {
+    margin: 20px 0;
+    font-family: monospace;
+    white-space: pre;
+    text-align: left;
+    display: inline-block;
+}
+
+#word {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#wrong-letters {
+    color: red;
+}
+
+#letter-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+}
+
+#submit-letter, #restart {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#submit-letter:hover, #restart:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
+
+#chances {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
